@@ -6,8 +6,7 @@ import Skill from './components/skill'
 import Sidebar from './components/Sidebar';
 import Work from './components/work';
 import Contact from './components/contactme';
-import { Routes,Route,Switch, Navigate} from "react-router-dom";
-import {BrowserRouter} from 'react-router-dom';
+import { Routes,Route} from "react-router-dom";
 
 function App() {
   return (
