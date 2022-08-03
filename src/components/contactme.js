@@ -62,23 +62,23 @@ function Contact() {
                     <h2>&lt;p/&gt;</h2>
                     <h2>&lt;form&gt;</h2>
     
-                    <form class="w-full mt-2 px-2">
-                            <div class="flex flex-wrap -mx-3 mb-2">
-                                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                    <form className="w-full mt-2 px-2">
+                            <div className="flex flex-wrap -mx-3 mb-2">
+                                <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                                 
-                                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-red-200" id="grid-first-name" type="text" placeholder="Name">
+                                <input className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-red-200" id="grid-first-name" type="text" placeholder="Name">
                                 </input>
                                 </div>
-                                <div class="w-full md:w-1/2 px-3">
-                                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-red-200" id="grid-last-name" type="Email" placeholder="Email">
+                                <div className="w-full md:w-1/2 px-3">
+                                <input className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-red-200" id="grid-last-name" type="Email" placeholder="Email">
                                 </input>
                                 </div>
                             </div>
-                            <div class="flex flex-wrap -mx-3 mb-2">
-                                <div class="w-full px-3">
-                                <input class=" appearance-none block w-full bg-slate-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-red-200" id="grid-password" type="text" placeholder="Subject">
+                            <div className="flex flex-wrap -mx-3 mb-2">
+                                <div className="w-full px-3">
+                                <input className=" appearance-none block w-full bg-slate-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-red-200" id="grid-password" type="text" placeholder="Subject">
                                 </input>
-                                <textarea class="appearance-none block w-full bg-slate-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-red-200 h-28 " id="grid-password" type="text" placeholder="Message">
+                                <textarea className="appearance-none block w-full bg-slate-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-red-200 h-28 " id="grid-password" type="text" placeholder="Message">
                                 </textarea>
                             </div>
                             </div>

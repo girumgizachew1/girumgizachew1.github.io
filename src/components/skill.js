@@ -82,27 +82,27 @@ function Skill() {
                     <div className='basis-1/2 flex flex-col' >
                         <div className='py-2' >
                         <p>Front-End</p>
-                            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                                <div class="bg-red-600 h-2.5 rounded-full w-11/12"></div>
+                            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                                <div className="bg-red-600 h-2.5 rounded-full w-11/12"></div>
                             </div>    
                         </div>
                         <div className='py-2' >
                         <p>Back-End</p>
-                            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                                <div class="bg-cyan-600 h-2.5 rounded-full w-10/12"></div>
+                            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                                <div className="bg-cyan-600 h-2.5 rounded-full w-10/12"></div>
                             </div>    
                         </div>
                         <div className='py-2' >
                         <p>ReactJS</p>
-                            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                                <div class="bg-green-600 h-2.5 rounded-full w-9/12"></div>
+                            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                                <div className="bg-green-600 h-2.5 rounded-full w-9/12"></div>
                             </div>    
                         </div>
                         <div className='py-2' >
                         <p> Product Development'
                               </p>
-                            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                                <div class="bg-red-600 h-2.5 rounded-full w-8/12"></div>
+                            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                                <div className="bg-red-600 h-2.5 rounded-full w-8/12"></div>
                             </div>    
                         </div> 
                     </div>
