@@ -27,9 +27,9 @@ const UseScript = url =>{
                 this.x = mouse.x;
                 this.y = mouse.y;
                 this.size = Math.random() * 3 + 0.1;
-                this.speedX = Math.random()* 3 ;
-                this.speedY = Math.random()* 3 ;
-                this.color = 'hsl('+ hue +',100%,40%)';
+                this.speedX = Math.random()* 2 ;
+                this.speedY = Math.random()* 2 ;
+                this.color = 'hsl('+ hue +',100%,50%)';
             }
     update(){
         this.x += this.speedX;
@@ -41,7 +41,7 @@ const UseScript = url =>{
     draw(){
         ctx.fillStyle = this.color;
         ctx.beginPath();
-        ctx.arc(this.x, this.y, this.size , 0 , 1);
+        ctx.arc(this.x, this.y, this.size , 0 , Math.PI * 2);
         ctx.fill();
     }
 }

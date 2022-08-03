@@ -12,10 +12,10 @@ import {BrowserRouter} from 'react-router-dom';
 function App() {
   return (
     <div className='flex flex-row text-base'>
-        <div className='basis-1/12 bg-black' >
-            <Sidebar/>
+        <div className='basis-1/12 bg-gray-800 sticky top-0 h-screen border-r border-white' >
+            <Sidebar />
         </div>
-        <div className='basis-11/12 bg-white' >
+        <div className='basis-11/12 bg-white overflow-y-auto ' >
         <Routes>
           <Route path="/about" element={<About />}>  </Route>
           <Route path="/skill" element={<Skill />}>   </Route>

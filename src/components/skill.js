@@ -73,7 +73,7 @@ function Skill() {
                     </div>
                 </div>
                 
-                <div className='mt-16' >
+                <div className='mt-12' >
                     <h2 className='px-6' >&lt;/body&gt;</h2>
                     <h2>&lt;/html&gt;</h2>
                 </div>
