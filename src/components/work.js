@@ -15,10 +15,10 @@ function work() {
                             HI,
                         </h1>
                         <h1>
-                            I'm girum,
+                            I'm Girum,
                         </h1>
                         <h1>
-                            Software Engineer,
+                            A Software Engineer,
                         </h1>
                     </div>
                     <h2 className='px-6'>&lt;h1/&gt;</h2>
