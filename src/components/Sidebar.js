@@ -24,13 +24,21 @@ function Sidebar() {
                 <button className='py-3 border-y border-gray-800 hover:text-red-600 hover:bg-white'><Link to="/about">About</Link></button>
                 <button className='py-3 border-b border-gray-800 hover:text-red-600 hover:bg-white'><Link to="/skill">Skill</Link></button>
                 <button className='py-3 border-b border-gray-800 hover:text-red-600 hover:bg-white'><Link to="/contact">Contact</Link></button>
+                <button className='py-3 border-b border-gray-800 hover:text-red-600 hover:bg-white'><Link to="/work">Work</Link></button>
                 <button className='py-3 border-b border-gray-800 hover:text-red-600 hover:bg-white'><Link to="/work">Resume</Link></button>
                 
             </div>
             <div className='lowwerslidebar flex flex-row basis-3/12 px-2 '>
-                    <button className='px-2 hover:text-red-600 ' ><GitHubIcon/></button>
+                    <a href="https://github.com/">
+                        <button className='px-2 hover:text-red-600 ' ><GitHubIcon/></button>
+                    </a>
+                    <a href="https://linkedin.com/">
+                    
                     <button className='px-2 hover:text-red-600  '><LinkedInIcon/></button>
+                    </a>
+                    <a href="https://instagram.com/">
                     <button className='px-2 hover:text-red-600 '><InstagramIcon/></button>
+                    </a>
             </div>
         </div>
     )
