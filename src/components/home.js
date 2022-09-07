@@ -16,33 +16,33 @@ function Home( {url} ) {
     return (
         <div>
             { loading ?
-            <div className='w-full h-screen ' >
-                <div className=' text-red-600 flex-col mt-72 mx-96 px-60'>
-                     <p className='text-bs py-1 mb-2 font-bold text-gray-400' >Giri is Thinking</p>
-                    <div className='-ml-36' >
+            <div className='w-screen h-screen mx-auto' >
+                <div className=' text-red-600 flex flex-col place-items-center pt-72'>
+                     <p className='text-bs py-2 pl mb-2 font-bold text-gray-400' >Giri is Thinking</p>
+                    <div className='px-4' >
                     <BarLoader
                         color="#FF0404"
                         cssOverride={{}}
                         height={4}
                         loading
                         speedMultiplier={1}
-                        width={400}
+                        width={350}
                         />
                         </div>
                 </div>
             </div>
         :
-        <div className='relative h-full w-full overflow-y-auto'>
+        <div className='fixed h-full w-full md:w-auto overflow-y-auto'>
         <canvas className="" id="canvas" ><UseScript></UseScript></canvas>
         
-        <div className='absolute inset-0 px-16 py-5 text-gray-400 italic'>
+        <div className='absolute inset-0 px-2 md:px-16 py-5 text-gray-400 italic'>
             <h2>&lt;html&gt;</h2>
             <h2 className='px-6' >&lt;body&gt;</h2>
             
             <div className='mt-24'>
                 <div>
                     <h2 className='px-6'  >&lt;h1&gt;</h2>
-                    <div className='not-italic	 px-12 text-7xl font-bold font-serif text-red-500' >
+                    <div className='not-italic	 px-12 text-3xl  md:text-5xl font-bold font-serif text-red-500' >
                         <h1 className="text-gray-700">
                         <TypeAnimation
                                 className="hover:text-red-600"
@@ -194,7 +194,7 @@ function Home( {url} ) {
                 Contact Me
             </button>
         </div>
-        <div className="bg-gray-800 w-full h-screen" >
+        <div className="bg-gray-800 w-full h-screen mx-auto" >
         <div className='flex flex-col' >
             <div className='basis-1/2 px-16 py-5 text-gray-400 italic leading-relaxed'>
             <div className="flex flex-row">            
